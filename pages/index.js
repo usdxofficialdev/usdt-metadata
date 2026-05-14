@@ -7,7 +7,7 @@ export default function Home() {
   const [price, setPrice] = useState(null);
 
   // Metadata JSON URL (Vercel public folder)
-  const metadataUrl = "https://<your-project>.vercel.app/metadata.json";
+  const metadataUrl = const metadataUrl = "/metadata.json"; // public folder me file hai
 
   // Proxy token address on BSC
   const proxyAddress = "0xBBB000d4866913F71BD502bE6C65Eeaac21Baf8B";
